@@ -3,7 +3,7 @@ languageCode = 'en'
 title = 'Snippy Dev Blog'
 theme = "hugo-ficurinia"
 defaultContentLanguage = "en"
-
+anonifyurls = true
 # this will be included in the footer after the current year the site is last
 # built, followed by the (c) symbol
 # you can use markdown inside this field
