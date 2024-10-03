@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://centre-pathogen-genomics.github.io/snippy-blog/'
 languageCode = 'en'
 title = 'Snippy Dev Blog'
 theme = "hugo-ficurinia"
