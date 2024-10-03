@@ -2,6 +2,7 @@
 title = 'Chan Zuckerberg Initiative: Essential Open Source Software for Science'
 date = 2024-06-24T11:19:48+10:00
 draft = false
+tags = ["CZI", "news"]
 +++
 
 The Chan Zuckerberg Initiative (CZI) has awarded an Essential Open Source Software for Science grant to Associate Professor Torsten Seemann, Lead Bioinformatician at the Centre for Pathogen Genomics, Doherty Institute, University of Melbourne. The USD$260,000 grant will fund two years of development for *Snippy*, an open-source tool designed to rapidly identify genetic differences between bacterial genomes.
