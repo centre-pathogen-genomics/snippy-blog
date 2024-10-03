@@ -1,7 +1,7 @@
 +++
 title = 'The `py` in Snippy Stands for Python?'
 date = 2024-10-02T11:19:48+10:00
-draft = true
+draft = false
 +++
 
 There are are several high-level design decisions that must be made when developing a new software tool (or is this case the a major revision to a beloved project). One of the most contentious is the choice of programming language. This decision can have far-reaching implications for the project's success, longevity, and adoption. In the case of this new version of Snippy, the choice was made to use Python as the primary programming language. This article will explore the reasons behind this decision and the implications for the project.
