@@ -1,5 +1,5 @@
 +++
-title = 'The `py` in Snippy Stands for Python?'
+title = 'The `py` in Snippy Stands for Python'
 date = 2024-10-02T11:19:48+10:00
 draft = false
 +++
