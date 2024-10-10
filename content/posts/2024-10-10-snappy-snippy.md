@@ -7,8 +7,6 @@ tags = ["python", "design", "performance", "hyperfine", "CI"]
 
 In the last post we detailed the decision to use Python as the primary programming language for the new version of Snippy. I can hear millions of crustaceans crying out at this decision, so in this post we will explore the performance implications of this decision and the steps we are taking to ensure that Snippy remains a snappy tool for microbial genomics research.
 
-> The name Snippy is a combination of SNP (pronounced "snip") , snappy (meaning "quick") and Skippy the Bush Kangaroo (to represent its Australian origin)
-
 First up Snippy is glue. It joins together a number of existing bioinformatics tools to perform its analysis. These tools are written in a variety of languages. For example:
 
 | Tool      | Language | Description                                      |
@@ -21,6 +19,8 @@ First up Snippy is glue. It joins together a number of existing bioinformatics t
 | snpEff    | Java     | Variant annotation and effect prediction tool    |
 
 The performance of Snippy is therefore dependent on the performance of these tools (Python does very little of the actual). With that said we still want to ensure that Snippy itself i.e. the CLI experience is as fast as possible.
+
+> Did you know? The name Snippy is a combination of SNP (pronounced "snip") , snappy (meaning "quick") and Skippy the Bush Kangaroo (to represent its Australian origin)
 
 # Continuous Benchmarking
 
