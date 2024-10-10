@@ -12,6 +12,8 @@ copyright = "Wytamma Wirth & Torsten Seemann"
 paginate = 5  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
 
+[markup.goldmark.renderer]
+    unsafe = true
 
 [params]
     author = "Wytamma Wirth"
