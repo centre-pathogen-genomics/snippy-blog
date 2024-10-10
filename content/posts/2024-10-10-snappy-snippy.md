@@ -18,7 +18,7 @@ First up Snippy is glue. It joins together a number of existing bioinformatics t
 | minimap2  | C        | Long-read mapping tool                           |
 | snpEff    | Java     | Variant annotation and effect prediction tool    |
 
-The performance of Snippy is therefore dependent on the performance of these tools (Python does very little of the actual). With that said we still want to ensure that Snippy itself i.e. the CLI experience is as fast as possible.
+The performance of Snippy is therefore dependent on the performance of these tools (Python/Perl does very little of the actual analysis). With that said we still want to ensure that Snippy itself i.e. the CLI experience is as fast as possible.
 
 > Did you know? The name Snippy is a combination of SNP (pronounced "snip") , snappy (meaning "quick") and Skippy the Bush Kangaroo (to represent its Australian origin)
 
