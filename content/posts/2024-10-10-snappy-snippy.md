@@ -24,7 +24,7 @@ The performance of Snippy is therefore dependent on the performance of these too
 
 # Continuous Benchmarking
 
-The slowest Snippy CLI command runs in ![](https://byob.yarr.is/centre-pathogen-genomics/snippy-ng/benchmark)
+The slowest Snippy CLI command runs in <img src="https://byob.yarr.is/centre-pathogen-genomics/snippy-ng/benchmark" style="display:inline;"/>.
 
 We use benchmarking to ensure the snippy CLI is snappy. `hyperfine` is a command-line benchmarking tool written in rust (you're welcome) that can be used to measure the execution time of a command. It is designed to be easy to use and provides a number of features that make it a good choice for benchmarking software tools.
 
