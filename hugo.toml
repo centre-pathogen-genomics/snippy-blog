@@ -1,4 +1,4 @@
-baseURL = 'https://centre-pathogen-genomics.github.io/snippy-blog/'
+baseURL = 'https://snippy.cpg.org.au/'
 languageCode = 'en'
 title = 'Snippy Dev Blog'
 theme = "hugo-ficurinia"
