@@ -17,9 +17,19 @@ We plan to solve the installation issues with Snippy-NG by using a number of mod
 
 We are using [Pixi](https://pixi.sh/latest/) and [pixi-pack](https://github.com/Quantco/pixi-pack) to create cross-platform self-extracting binaries of the full snippy environment. We have developed Github actions that will automatically [pack Pixi environments](https://github.com/Wytamma/pixi-pack-action) and [create a install script](https://github.com/Wytamma/pixi-pack-install-script). This will not only solve the installation issues but improve reproducibility.
 
-## Github best practices 
+You can install `snippy-ng` via the install script with the follow command:
 
-By adopting automated [semantic-releases](https://github.com/semantic-release/semantic-release) we will ensure that Snippy-NG is always up to date and that any issues are quickly resolved. We are also using Github Actions to run [tests and benchmarks](https://github.com/centre-pathogen-genomics/snippy-ng/actions/workflows/PR.yaml) on every pull request and release to ensure that the code is always working. We are committed to reaching [100% code coverage](https://app.codecov.io/github/centre-pathogen-genomics/snippy-ng) and have put checks in place to prevent drops in code coverage. To release a new version of Snippy-NG code coverage must not go down. Additionally, we have blocked commits directly to the main branch to ensure that all changes are made through pull requests. This way all changes will be reviewed and tested before they are merged into the main branch.
+```bash
+curl -sSL https://github.com/centre-pathogen-genomics/snippy-ng/releases/latest/download/install.sh | bash
+```
+
+This version of snippy-ng has all the of the dependencies pinned via the [pixi.lock](https://github.com/centre-pathogen-genomics/snippy-ng/blob/main/pixi.lock) file. Users installing snippy-ng via the install script will have the same versions of all dependencies.
+
+## Github Best Practices
+
+By adopting automated [semantic-releases](https://github.com/semantic-release/semantic-release) we ensure that Snippy-NG is always up to date and that any issues are quickly resolved. We are also using Github Actions to run [tests and benchmarks](https://github.com/centre-pathogen-genomics/snippy-ng/actions/workflows/PR.yaml) on every pull request and release to ensure that the code is always fast and working. We are committed to reaching [100% code coverage](https://app.codecov.io/github/centre-pathogen-genomics/snippy-ng) and have put checks in place to prevent drops in test code coverage. To release a new version of Snippy-NG code coverage must not go down. Additionally, blocked commits directly to the main branch to ensure that all changes are made through pull requests. This way all changes will be reviewed and tested before they are merged into the main branch.
+
+![image](https://github.com/user-attachments/assets/4113d202-25db-41a3-ac64-bf6ae6d39f2e)
 
 ## Conclusion
 
