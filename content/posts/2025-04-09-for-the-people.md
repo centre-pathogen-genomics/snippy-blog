@@ -11,11 +11,7 @@ We have seen that Snippy-NG will be [`by the people`](/posts/the-py-in-snippy/) 
 
 The original Snippy is a Perl script that required a number of dependencies to be installed on the system. While Conda offers some help, installation problems are one of the most common problems issues on Github. This has resulted in Snippy being called out for its [degraded installation experience](https://www.bacpop.org/guides/building_trees_with_ska).
 
-We plan to solve the installation issues with Snippy-NG by using a number of modern software development practices. Most notability, we will provide a pre-built environment that will install Snippy-NG and all dependencies with a single command. This environment will contain pinned versions of all dependencies to ensure that Snippy-NG will work the same on any system. We will use continuous integration and Github best practices to ensure that the environment is always up to date and that Snippy-NG is always working.
-
-## Pre-built Environment
-
-We are using [Pixi](https://pixi.sh/latest/) and [pixi-pack](https://github.com/Quantco/pixi-pack) to create cross-platform self-extracting binaries of the full snippy environment. We have developed Github actions that will automatically [pack Pixi environments](https://github.com/Wytamma/pixi-pack-action) and [create a install script](https://github.com/Wytamma/pixi-pack-install-script). This will not only solve the installation issues but improve reproducibility.
+We plan to solve the installation issues with Snippy-NG by using a number of modern software development practices. Most notability, we will provide a pre-built environment that will install Snippy-NG and all dependencies with a single command. This environment contains pinned versions of all dependencies to ensure that Snippy-NG will work the same on any system. In addition we use continuous integration and Github best practices to ensure that the environment is always up to date and that Snippy-NG is always working.
 
 You can install `snippy-ng` via the install script with the follow command:
 
@@ -24,6 +20,10 @@ curl -sSL https://github.com/centre-pathogen-genomics/snippy-ng/releases/latest/
 ```
 
 This version of snippy-ng has all the of the dependencies pinned via the [pixi.lock](https://github.com/centre-pathogen-genomics/snippy-ng/blob/main/pixi.lock) file. Users installing snippy-ng via the install script will have the same versions of all dependencies.
+
+## Pre-built Environment
+
+We are using [Pixi](https://pixi.sh/latest/) and [pixi-pack](https://github.com/Quantco/pixi-pack) to create cross-platform self-extracting binaries of the full snippy environment. We have developed Github actions that will automatically [pack Pixi environments](https://github.com/Wytamma/pixi-pack-action) and [create a install script](https://github.com/Wytamma/pixi-pack-install-script). This will not only solve the installation issues but improve reproducibility.
 
 ## Github Best Practices
 
