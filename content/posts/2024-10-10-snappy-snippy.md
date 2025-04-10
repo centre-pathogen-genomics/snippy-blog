@@ -22,7 +22,7 @@ The performance of Snippy is therefore dependent on the performance of these too
 
 > Did you know? The name Snippy is a combination of SNP (pronounced "snip"), snappy (meaning "quick") and Skippy the Bush Kangaroo (to represent its Australian origin)
 
-# Continuous Benchmarking
+## Continuous Benchmarking
 
 The slowest Snippy CLI `--help` command runs in <img src="https://byob.yarr.is/centre-pathogen-genomics/snippy-ng/benchmark" style="display:inline;"/>.
 
