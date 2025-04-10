@@ -1,7 +1,7 @@
 +++
 title = 'For the People'
 date = 2025-05-09T11:19:48+10:00
-draft = true
+draft = false
 tags = ["CI", "CD", "github", "install"]
 +++
 
