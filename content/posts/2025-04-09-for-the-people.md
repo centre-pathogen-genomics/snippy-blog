@@ -1,6 +1,6 @@
 +++
 title = 'For the People'
-date = 2025-05-09T11:19:48+10:00
+date = 2025-04-09T11:19:48+10:00
 draft = false
 tags = ["CI", "CD", "github", "install"]
 +++
@@ -11,7 +11,7 @@ We have seen that Snippy-NG will be [`by the people`](/posts/the-py-in-snippy/) 
 
 The original Snippy is a Perl script that required a number of dependencies to be installed on the system. While Conda offers some help, installation problems are one of the most common problems issues on Github. This has resulted in Snippy being called out for its [degraded installation experience](https://www.bacpop.org/guides/building_trees_with_ska).
 
-We plan to solve the installation issues with Snippy-NG by using a number of modern software development practices. Most notability, we will provide a pre-built environment that will install Snippy-NG and all dependencies with a single command. This environment will contain pinned versions of all dependencies to ensure that Snippy-NG will work the same on any system. We will use CI/DC to ensure that the environment is always up to date and that Snippy-NG is always working.
+We plan to solve the installation issues with Snippy-NG by using a number of modern software development practices. Most notability, we will provide a pre-built environment that will install Snippy-NG and all dependencies with a single command. This environment will contain pinned versions of all dependencies to ensure that Snippy-NG will work the same on any system. We will use continuous integration and Github best practices to ensure that the environment is always up to date and that Snippy-NG is always working.
 
 ## Pre-built Environment
 
@@ -19,7 +19,7 @@ We are using [Pixi](https://pixi.sh/latest/) and [pixi-pack](https://github.com/
 
 ## Github best practices 
 
-By adopting automated [semantic-releases](https://github.com/semantic-release/semantic-release). We will ensure that Snippy-NG is always up to date and that any issues are quickly resolved. We are also using Github Actions to run [tests and benchmarks](https://github.com/centre-pathogen-genomics/snippy-ng/actions/workflows/PR.yaml) on every pull requests and release to ensure that the code is always working. We are committed to reaching [100% code coverage](https://app.codecov.io/github/centre-pathogen-genomics/snippy-ng) and have put checks in place to prevent drops in code coverage. To release a new version of Snippy-NG code coverage must go up. Additionally, we have blocked commits directly to the main branch to ensure that all changes are made through pull requests. This way all changes will be reviewed and tested before they are merged into the main branch.
+By adopting automated [semantic-releases](https://github.com/semantic-release/semantic-release) we will ensure that Snippy-NG is always up to date and that any issues are quickly resolved. We are also using Github Actions to run [tests and benchmarks](https://github.com/centre-pathogen-genomics/snippy-ng/actions/workflows/PR.yaml) on every pull request and release to ensure that the code is always working. We are committed to reaching [100% code coverage](https://app.codecov.io/github/centre-pathogen-genomics/snippy-ng) and have put checks in place to prevent drops in code coverage. To release a new version of Snippy-NG code coverage must go up. Additionally, we have blocked commits directly to the main branch to ensure that all changes are made through pull requests. This way all changes will be reviewed and tested before they are merged into the main branch.
 
 ## Conclusion
 
