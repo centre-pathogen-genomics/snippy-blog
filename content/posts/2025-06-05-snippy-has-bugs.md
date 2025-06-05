@@ -1,5 +1,5 @@
 +++
-title = 'Ew! Snippy-NG has bugs!'
+title = 'Ew! Snippy-NG has Bugs!'
 date = 2025-06-04T11:19:48+10:00
 draft = false
 tags = ["github", "bugs", "issues"]
