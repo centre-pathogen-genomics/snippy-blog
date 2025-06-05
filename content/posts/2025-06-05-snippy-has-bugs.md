@@ -13,7 +13,7 @@ In the latest version of Snippy-NG ([v1.0.0](https://github.com/centre-pathogen-
 
 ## Automatic Bug Catching
 
-In addition to the `--bug` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of snippy and users operating system. Users can click a link to open the bug report in their browser, where they can add more details and submit it.
+In addition to the `--bug` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of snippy and users operating system. Users can [click a link](https://github.com/centre-pathogen-genomics/snippy-ng/issues/new?template=bug_report.md&labels=cli,bug&type=bug&title=Wow+you+clicked+the+link!) to open the bug report in their browser, where they can add more details and submit it.
 
 ```
 Oh no! You broke Snippy-NG... Congrats! Please use the following URL to report this bug:
