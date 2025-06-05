@@ -25,7 +25,7 @@ Above is a pre-filled bug report template. Please copy/paste it into the GitHub 
 
 ## Bonus
 
-We also added a new formatting for the logs that makes it easier to read and understand which stages are running.
+We also added new formatting for the logs that makes it easier to read and understand which stages are running.
 ```
 -------------------------------------------------------------------
                          Running Snippy-NG                         
@@ -49,5 +49,5 @@ We also added a new formatting for the logs that makes it easier to read and und
 -------------------------------------------------------------------
 [17:30:29 - INFO] Setting working directory to 'out'
 ------------------------ PrepareReference -------------------------
-[17:30:29 - INFO] cpus=1 ram=8 outdir=PosixPath('out') tmpdir=PosixPath('/var/folders/hs/3sl81nqd6mzcbz1sc_td3bv00000gn/T') input=Posi...
+[17:30:29 - INFO] cpus=1 ram=8 outdir=PosixPath('out') tmpdir=Po...
 ```
