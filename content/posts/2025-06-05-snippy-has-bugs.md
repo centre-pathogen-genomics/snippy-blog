@@ -9,11 +9,11 @@ Snippy's farther ([tseemann](https://github.com/tseemann)) is a notorious GitHub
 
 ## Reporting Bugs
 
-In the latest version of Snippy-NG ([v1.0.0](https://github.com/centre-pathogen-genomics/snippy-ng/releases)), we have added a new flag `snippy-ng --bugs` that allows users to report bugs directly from the command line. This command will open a new issue on the Snippy-NG GitHub repository with a bug report template and some pre-filled labels.
+In the latest version of Snippy-NG ([v1.0.0](https://github.com/centre-pathogen-genomics/snippy-ng/releases)), we have added a new flag `snippy-ng --bug` that allows users to report bugs directly from the command line. This command will open a new issue on the Snippy-NG GitHub repository with a bug report template and some pre-filled labels.
 
 ## Automatic Bug Catching
 
-In addition to the `--bugs` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of snippy and users operating system. Users can click a link to open the bug report in their browser, where they can add more details and submit it.
+In addition to the `--bug` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of snippy and users operating system. Users can click a link to open the bug report in their browser, where they can add more details and submit it.
 
 ```
 Oh no! You broke Snippy-NG... Congrats! Please use the following URL to report this bug:
