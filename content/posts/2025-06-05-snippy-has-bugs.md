@@ -5,7 +5,7 @@ draft = false
 tags = ["github", "bugs", "issues"]
 +++
 
-Snippy's farther ([tseemann](https://github.com/tseemann)) is a notorious GitHub bug hunter. He has over [1.8K closed](https://github.com/search?q=author%3Atseemann+is%3Aissue+state%3Aclosed&type=issues) and about [500 open](https://github.com/search?q=author%3Atseemann+is%3Aissue+state%3Aopen&type=issues) issues on GitHub. In the spirit of Torsten's contributions to the open source community, we are making it easy for anyone to report bugs in Snippy-NG.
+Snippy's father ([tseemann](https://github.com/tseemann)) is a notorious GitHub bug hunter. He has over [1.8K closed](https://github.com/search?q=author%3Atseemann+is%3Aissue+state%3Aclosed&type=issues) and about [500 open](https://github.com/search?q=author%3Atseemann+is%3Aissue+state%3Aopen&type=issues) issues on GitHub. In the spirit of Torsten's contributions to the open source community, we are making it easy for anyone to report bugs in Snippy-NG.
 
 ## Reporting Bugs
 
@@ -13,7 +13,7 @@ In the latest version of Snippy-NG ([v1.0.0](https://github.com/centre-pathogen-
 
 ## Automatic Bug Catching
 
-In addition to the `--bug` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of snippy and users operating system. Users can [click a link](https://github.com/centre-pathogen-genomics/snippy-ng/issues/new?template=bug_report.md&labels=cli,bug&type=bug&title=Wow+you+clicked+the+link!) to open the bug report in their browser, where they can add more details and submit it.
+In addition to the `--bug` flag, we have also added a new feature that automatically catches runtime bugs in Snippy-NG. If there is an unhandled exception in Snippy-NG, it will automatically generate a bug report with prefilled information like the version of Snippy-NG and user's operating system. Users can [click a link](https://github.com/centre-pathogen-genomics/snippy-ng/issues/new?template=bug_report.md&labels=cli,bug&type=bug&title=Wow+you+clicked+the+link!) to open the bug report in their browser, where they can add more details and submit it.
 
 ```
 Oh no! You broke Snippy-NG... Congrats! Please use the following URL to report this bug:
